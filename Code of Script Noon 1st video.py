@@ -43,3 +43,14 @@ for i in range(1,19):
             if 'href' in link.attrs:
                 productlinks.append(basurl + link['href'])
                 print(productlinks[-1])
+
+"""
+This is where the product links are extracted from the search pages.
+The spans variable is set up to find all the HTML elements that contain the product listing.
+The links variable is set up to find all the HTML elements that contain the links to the product pages.
+the if statement is used to check if the href attribute is present in the link element.
+If it is, the product link is appended to the productlinks list and printed to the console.
+
+"""
+ 
+
